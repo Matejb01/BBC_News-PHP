@@ -1,0 +1,142 @@
+
+.kartice-container , .kartice-container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:1000px ;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+  
+.kartica {
+    flex-basis: 30%;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 10px;
+} 
+
+
+.kartica img{
+    width: 270px;
+    height: 200px;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+header {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding-left: 20%;
+    background-color: black;
+    color: white;
+}
+  
+.logo img {
+    height: 50px;
+}
+  
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+  
+nav li {
+    margin-left: 20px;
+    
+}
+  
+nav a {
+    text-decoration: none;
+    color: white;
+}
+  
+footer {
+    text-align: center;
+    margin-top: 5%;
+    padding: 20px;
+    background-color: #3b3838;
+    color: white;
+}
+
+.unos{
+    margin-top: 10%;
+}
+
+.skripta{
+    margin-top: 23%;
+}
+  
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+  }
+  
+.ft {
+    font-size: 10px;
+    margin: 0;
+    color: white
+}
+
+/* unos.html */
+form{
+    text-align: center;
+    margin-top: 1%;
+}
+
+/* skripta.php */
+.main{
+    margin-top: -0.2%;
+    text-align: left;
+    padding-left: 20%;
+    width: 1000px;
+}
+
+.category {
+    text-transform: uppercase;
+    background-color: yellow;
+    color: black;
+    padding-left: 20%;
+    margin-top: -0.2%;
+}
+
+/* insert.php */
+.main-insert {
+    margin-top: -0.9%;
+    text-align: left;
+    padding-left: 20%;
+    width: 1000px;
+}
+
+.category-insert {
+    text-transform: uppercase;
+    background-color: yellow;
+    color: black;
+}
+
+/* login.php */
+.forma-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forma-style{
+    width: 250px;
+    text-align: left;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
